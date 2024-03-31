@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 8px 0px;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 75%;   
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;   
+  height: 50px;   
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg {
+  height: 600px;   
+  width: 100%;
+  background-size: cover;   
+  color: white;
+}
+
+.desc {
+    position: absolute;
+    top: 200px;
+    right: 70%;
+    transform: translateX(-90%);
+    color: white;
+    font-size: 4vh;
+    text-align: left;
+}
+
+.section1 {
+  width: 90%;   
+  margin: 0 auto;   
+  margin-top: 100px;   
+}
+
+.section-heading {
+  margin-top: 20px;   
+  margin-bottom: 3rem;   
+}
+
+.books {
+  display: flex;
+  justify-content: space-around;   
+  margin-top: 20px;   
+}
+
+.book-image h4 {
+  margin-top: 5px;   
+  color: grey;   
+  margin-right: 5px;  
+  margin-bottom: 0;
+}
+
+.book-details {
+  margin-left: 5px;   
+  display: flex;
+  margin-top: 5px;   
+  margin-bottom: 0;
+}
+
+.add2cart {
+  height: 45px;   
+  margin-top: 15px;
+  background-color: #318CE7;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  color: white;
+  margin-left: 50%;   
+  border: none;
+}
+
+#price {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;   
+  font-size: 22px;   
+  font-weight: bold;
+}
+
+#cartbtn {
+  height: 30px;   
+  width: 30px;   
+}
+
+#bookImage {
+  width: 250px;   
+  height: 350px;   
+}
+.section2{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+.games{
+    display: flex;
+    justify-content: space-evenly;
+}
+#game-name{
+    margin-top: 5px;
+    color: grey;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+#game_img{
+    width:300px;
+    height: 300px;
+}
+.game-details{
+    margin-left: 5px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.section3{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+.handmades{
+    display: flex;
+    justify-content: space-evenly;
+}
+#art_img{
+    width:250px;
+    height: 250px;
+}
+.art-details{
+    margin-left: 7px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+#matter{
+    display: flex;
+    color:white;
+    background-color: black;
+}
+#matter img{
+    width: 200px;
+    height: 200px;
+    margin-right: 60%;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+#heart{
+    color: red;
+}
+.footer-details{
+    display: flex;
+    margin-top: 100px;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 100px;
+}
