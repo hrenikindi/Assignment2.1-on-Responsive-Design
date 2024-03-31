@@ -52,7 +52,7 @@ a {
 }
 
 .section1 {
-  width: 90%;   
+  width: 94%;   
   margin: 0 auto;   
   margin-top: 100px;   
 }
@@ -177,4 +177,65 @@ a {
     text-align: right;
     font-weight: bold;
     margin-right: 100px;
+}
+
+/*Adding Media Queries for  Responsiveness*/
+@media screen and (max-width:768px){
+    .books,.games,.handmades{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+       }
+    .section1,.section2,.section3{
+        width: 90%;
+        margin-left: 60%;
+       }
+    #matter{
+        width:100% ;
+       }
+    .footer-details{
+        width: 100%;
+       }
+    .add2cart{
+        margin-left: 20%;
+       }
+    .container{
+        width: 100%;
+        flex-direction: column;
+        background-size: cover;
+       }
+    .desc{
+        flex-direction:  column;
+    }
+    .header {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 8px 0px;
+      }
+    .left,.right{
+        display: flex;
+        justify-content: center;
+      }
+    .right{
+        margin-right:-320px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bg{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .footer-details{
+        margin-left:-300px;
+    }
+   
 }
